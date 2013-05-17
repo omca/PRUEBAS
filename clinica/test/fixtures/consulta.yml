@@ -1,0 +1,7 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  fecha_cita: 2013-05-17 00:09:32
+
+two:
+  fecha_cita: 2013-05-17 00:09:32

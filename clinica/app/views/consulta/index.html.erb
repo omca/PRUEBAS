@@ -1,0 +1,27 @@
+<h1>Listing consulta</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fecha cita</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @consulta.each do |consultum| %>
+      <tr>
+        <td><%= consultum.fecha_cita %></td>
+        <td><%= link_to 'Show', consultum %></td>
+        <td><%= link_to 'Edit', edit_consultum_path(consultum) %></td>
+        <td><%= link_to 'Destroy', consultum, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Consultum', new_consultum_path %>
