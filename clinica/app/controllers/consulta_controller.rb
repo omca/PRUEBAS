@@ -2,10 +2,12 @@ class ConsultaController < ApplicationController
   before_action :set_consultum, only: [:show, :edit, :update, :destroy]
 
   # GET /consulta
-  # GET /consulta.json
+  # GET /consulta.json 
   def index
     @consulta = Consultum.all
   end
+
+  
 
   # GET /consulta/1
   # GET /consulta/1.json
