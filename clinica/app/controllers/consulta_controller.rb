@@ -6,6 +6,12 @@ class ConsultaController < ApplicationController
   def index
     @consulta = Consultum.all
   end
+  
+  
+  
+  
+  
+  
 
   
 
