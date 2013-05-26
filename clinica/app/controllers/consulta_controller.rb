@@ -7,11 +7,12 @@ class ConsultaController < ApplicationController
     @consulta = Consultum.all
   end
 
-  
+
 
   # GET /consulta/1
   # GET /consulta/1.json
   def show
+    #change local
   end
 
   # GET /consulta/new
